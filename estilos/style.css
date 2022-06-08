@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar-brand{
+    width: 500px;
+}
+
+.rosa{
+    background-color: #f8c1d0;
+}
+
+.imagen{
+    width: 20%;
+    height: auto;
+}
+
+.azul{
+    color: rgb(17, 63, 108);
+}
+
+.social{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}    
+
+.texto, .video{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.containerPortfolio {
+    grid-area: containerPortfolio;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos {
+    display: flex;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: auto;
+    /*padding: 5px;*/
+}
+
+.foto {
+    display: flex;
+    text-align: center;
+    width: 400px;
+   /* padding: 5px;*/
+}
+
+figcaption {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(17, 63, 108);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+@media(min-width: 1024px){
+    .fotos{
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .foto{
+
+        width: 300px;
+        padding: 10px;
+    }
+}
