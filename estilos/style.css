@@ -48,20 +48,29 @@
     gap: 5px;
     flex-wrap: wrap;
     margin: auto;
-    /*padding: 5px;*/
 }
 
-.foto {
+.foto{
     display: flex;
     text-align: center;
     width: 400px;
-   /* padding: 5px;*/
+
 }
 
-figcaption {
+.foto:hover{
+    transform: rotateY(360deg);
+}
+
+.foto{
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+figcaption{
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgb(17, 63, 108);
-    font-size: 15px;
+    font-sirgb(67, 150, 233)
     font-weight: bold;
     text-align: center;
 }
