@@ -1,94 +1,102 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-brand{
-    width: 500px;
+.navbar-brand {
+  width: 500px;
 }
 
-.rosa{
-    background-color: #f8c1d0;
+.rosa {
+  background-color: #f8c1d0;
 }
 
-.imagen{
-    width: 20%;
-    height: auto;
+.azul {
+  color: #113f6c;
 }
 
-.azul{
-    color: rgb(17, 63, 108);
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
 }
 
-.social{
-    display: flex;
-    font-size: 25px;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}    
-
-.texto, .video{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.texto, .video {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .containerPortfolio {
-    grid-area: containerPortfolio;
-    display: flex;
-    flex-wrap: wrap;
+  grid-area: containerPortfolio;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.fotos {
-    display: flex;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin: auto;
+.containerPortfolio .fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
 }
 
-.foto{
-    display: flex;
-    text-align: center;
-    width: 400px;
-
+.containerPortfolio .fotos .foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 400px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
-.foto:hover{
-    transform: rotateY(360deg);
+.containerPortfolio .fotos .foto:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
 }
 
-.foto{
-    transition-property: all;
-    transition-duration: 2s;
+figcaption {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #113f6c;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
 }
 
-
-figcaption{
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: rgb(17, 63, 108);
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
+@media (min-width: 1024px) {
+  .fotos {
+    gap: 20px;
+    padding: 10px;
+  }
+  .foto {
+    width: 300px;
+    padding: 10px;
+  }
 }
 
-.formulario{
-    padding-left: 30px;
-    padding-top: 20px;
+.formulario {
+  padding-left: 30px;
+  padding-top: 20px;
 }
-
-@media(min-width: 1024px){
-    .fotos{
-        gap: 20px;
-        padding: 10px;
-    }
-
-    .foto{
-
-        width: 300px;
-        padding: 10px;
-    }
-}
+/*# sourceMappingURL=style.css.map */
