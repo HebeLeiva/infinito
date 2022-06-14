@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  height: 100vh;
+}
+
 .navbar-brand {
   width: 500px;
 }
@@ -33,6 +37,7 @@
 .texto, .video {
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-right: 15px;
 }
 
 .containerPortfolio {
