@@ -104,4 +104,42 @@ figcaption {
   padding-left: 30px;
   padding-top: 20px;
 }
+
+/* mixin */
+.titulo1 {
+  font-size: 35px;
+  color: rgba(91, 52, 163, 0.938);
+  border: 3px solid #5ee4b7;
+}
+
+/* extend */
+.encargo, .encargo--1, .encargo--2, .encargo--3 {
+  color: darkslategrey;
+  border: 2px solid black;
+}
+
+.encargo--1 {
+  background-color: #8b5fa0;
+}
+
+.encargo--2 {
+  border: 3px dashed #645e5e;
+}
+
+.encargo--3 {
+  font-size: 35px;
+}
+
+/* map */
+.red--instagram {
+  color: #610f56;
+}
+
+.red--whatsapp {
+  color: #178b17;
+}
+
+.red--email {
+  color: rgba(14, 14, 221, 0.925);
+}
 /*# sourceMappingURL=style.css.map */
