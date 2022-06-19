@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,11 @@
 
 html {
   height: 100vh;
+}
+
+.fuente {
+  font-family: 'Merienda', cursive;
+  font-size: 50px;
 }
 
 .navbar-brand {
