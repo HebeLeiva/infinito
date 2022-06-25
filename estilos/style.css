@@ -46,6 +46,11 @@ html {
   padding-top: 10px;
 }
 
+.dire {
+  text-decoration: none;
+  font-size: small;
+}
+
 #grilla {
   width: 100%;
   height: 800px;
