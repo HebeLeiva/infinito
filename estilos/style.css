@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merienda:wght@700&family=Smooch&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +9,16 @@ html {
 }
 
 .fuente {
-  font-family: 'Merienda', cursive;
-  font-size: 50px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: x-large;
 }
 
+/*
+@media (min-width: 768px){
+    .fuente{
+        font-size: 80px;
+    }
+}*/
 .navbar-brand {
   width: 500px;
 }
@@ -107,8 +113,8 @@ html {
         grid-template-areas: "frase frase" "inicio1 inicio3";
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 30% auto;
-        grid-template-rows: 30% auto;
+    -ms-grid-rows: 20% auto;
+        grid-template-rows: 20% auto;
     gap: 15px;
   }
   .frase {

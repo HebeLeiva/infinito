@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merienda:wght@700&family=Smooch&display=swap');
 
 *{
     margin:0;
@@ -10,6 +10,12 @@ html{
 }
 
 .fuente{
-    font-family:'Merienda', cursive;
-    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: x-large;
 }
+/*
+@media (min-width: 768px){
+    .fuente{
+        font-size: 80px;
+    }
+}*/
