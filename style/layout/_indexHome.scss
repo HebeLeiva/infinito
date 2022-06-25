@@ -112,13 +112,13 @@
     .inicio1 {
         grid-area: inicio1;
         display: flex;
-        width: 400px;
+        width: 300px;
 
     }
 
     .inicio2 {
         grid-area: inicio2;
-        width: 400px;
+        width: 300px;
         display: flex;
         align-self: center;
         justify-self: center;
@@ -127,6 +127,6 @@
     .inicio3 {
         grid-area: inicio3;
         display: flex;
-        width: 400px;
+        width: 300px;
     }
 }
