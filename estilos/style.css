@@ -30,14 +30,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   font-size: 25px;
-  gap: 10px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 10px;
+  gap: 20px;
 }
 
 .dire {
