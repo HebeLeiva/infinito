@@ -209,10 +209,16 @@ html {
   }
 }
 
-.texto, .video {
+.texto {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
+}
+
+.video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .containerPortfolio {
