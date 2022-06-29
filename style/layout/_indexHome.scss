@@ -41,6 +41,14 @@
     justify-self: center;
 }
 
+.animacion{
+    transition-property: all;
+    transition-duration: 2s;
+    
+    &:hover{
+        transform: rotateX(360deg);
+    }
+}
 
 
 @media (min-width: 768px) {
