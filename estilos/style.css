@@ -208,6 +208,11 @@ html {
   }
 }
 
+html {
+  width: 100%;
+  height: 100vh;
+}
+
 .texto {
   padding-top: 15px;
   padding-bottom: 15px;
