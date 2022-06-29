@@ -1,7 +1,7 @@
 #grilla {
     width: 100%;
-    height: 800px;
-    padding-left: 10px;
+    height: 100vh;
+    
 }
 
 #grilla {
@@ -12,7 +12,7 @@
         "inicio3";
     grid-template-columns: 100%;
     grid-template-rows: 50px 300px 400px;
-    gap: 10px;
+
 }
 
 .frase {
@@ -48,7 +48,7 @@
     #grilla {
         width: 100%;
         height: 600px;
-        padding-left: 10px;
+        
     }
     
     #grilla {
@@ -71,8 +71,7 @@
     .inicio1 {
         grid-area: inicio1;
         display: flex;
-        width: 300px;
-        display: flex;
+        width: 80%;
         align-self: center;
         justify-self: center;
 
@@ -83,7 +82,7 @@
     }
     .inicio3 {
         grid-area: inicio3;
-        width: 300px;
+        width: 80%;
         display: flex;
         align-self: center;
         justify-self: center;
@@ -98,9 +97,9 @@
         grid-template-areas:
             "frase frase frase"
             "inicio1 inicio2 inicio3";
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 32% 36% 32%;
         grid-template-rows: 20% auto;
-        gap: 15px;
+        gap: 0;
     }
 
     .frase {
@@ -113,12 +112,14 @@
         grid-area: inicio1;
         display: flex;
         width: 300px;
+        height: auto;
 
     }
 
     .inicio2 {
         grid-area: inicio2;
-        width: 300px;
+        width: 350px;
+        height: auto;
         display: flex;
         align-self: center;
         justify-self: center;
@@ -128,5 +129,6 @@
         grid-area: inicio3;
         display: flex;
         width: 300px;
+        height: auto;
     }
 }
