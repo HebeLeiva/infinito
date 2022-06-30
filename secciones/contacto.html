@@ -52,30 +52,9 @@
 
   <main class="rosa">
 
-    <section class="container-fluid">
+    <section class="container-fluid pt-4 ps-4">
 
       <div class="row">
-
-        <div class="col-lg-5 col-md-6 col-sm-12">
-
-          <form class="formulario azul">
-            <label for="nombre_apellido">Ingrese nombre y apellido:</label>
-            <input type="text" name="nombre_apellido" /> <br>
-            <label for="telefono">Ingrese su teléfono:</label>
-            <input type="number" name="telefono" /> <br>
-            <div>Celular</div>
-            <input type="radio" name="tipo" value="Celular" />
-            <div>Fijo</div>
-            <input type="radio" name="tipo" value="Fijo" /> <br>
-            <label for="email" name="email">Ingrese su email:</label>
-            <input type="email" name="email" /> <br>
-            <label for="consulta">Ingrese su consulta:</label> <br>
-            <textarea type="text" name="consulta" id="" cols="40" rows="15"></textarea> <br>
-            <input type="submit" class="azul" value=" Enviar " />
-            <input type="reset" class="azul" value=" Borrar " />
-          </form>
-
-        </div>
 
         <div class="col-lg-7 col-md-6 col-sm-12">
 
@@ -94,6 +73,27 @@
           <div class="container-fluid text-center">
             <img  class="mini" src="../img/mini.png" alt="infinito arte">
           </div>
+
+        </div>
+
+        <div class="col-lg-5 col-md-6 col-sm-12">
+
+          <form class="formulario azul">
+            <label for="nombre">Ingresa tu nombre:</label>
+            <input type="text" name="nombre"/> <br>
+            <label for="telefono">Ingresa tu teléfono:</label>
+            <input type="number" name="telefono"/> <br>
+            <input type="radio" id="" name="tipo" value="celular">
+            <label for="celular">Celular</label><br>
+            <input type="radio" id="" name="tipo" value="fijo">
+            <label for="fijo">Fijo</label><br>
+            <label for="email" name="email">Ingresa tu email:</label>
+            <input type="email" name="email" /> <br>
+            <label for="consulta">Ingresa tu consulta:</label> <br>
+            <textarea type="text" name="consulta" id="" cols="45" rows="15"></textarea> <br>
+            <input type="submit" class="azul forma" value=" Enviar " />
+            <input type="reset" class="azul forma" value=" Borrar " />
+          </form>
 
         </div>
 

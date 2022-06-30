@@ -18,7 +18,7 @@ html {
 }
 
 .rosa {
-  background-color: #f8c1d0;
+  background-color: #f8d5df;
 }
 
 .azul {
@@ -305,6 +305,18 @@ html {
 .formulario {
   padding-left: 30px;
   padding-top: 20px;
+}
+
+.forma {
+  border-radius: 20px;
+  border-color: #113f6c;
+  width: 65px;
+  height: 25px;
+  background-color: #f8d5df;
+}
+
+.forma:hover {
+  background-color: #ffff;
 }
 
 .mini {
