@@ -1,5 +1,5 @@
 #grilla {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     
 }
@@ -104,7 +104,7 @@
         grid-template-areas:
             "frase frase frase"
             "inicio1 inicio2 inicio3";
-        grid-template-columns: 32% 36% 32%;
+        grid-template-columns: 32% 34% 32%;
         grid-template-rows: 20% auto;
         gap: 0;
     }

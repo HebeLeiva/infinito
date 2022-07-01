@@ -5,6 +5,7 @@
 }
 
 html {
+  width: 100%;
   height: 100vh;
 }
 
@@ -47,16 +48,14 @@ html {
 }
 
 #grilla {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
 #grilla {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "frase"
- "inicio2"
- "inicio3";
+      grid-template-areas: "frase" "inicio2" "inicio3";
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
   -ms-grid-rows: 50px 300px 400px;
@@ -121,8 +120,7 @@ html {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "frase frase"
- "inicio1 inicio3";
+        grid-template-areas: "frase frase" "inicio1 inicio3";
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 20% auto;
@@ -173,10 +171,9 @@ html {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "frase frase frase"
- "inicio1 inicio2 inicio3";
-    -ms-grid-columns: 32% 36% 32%;
-        grid-template-columns: 32% 36% 32%;
+        grid-template-areas: "frase frase frase" "inicio1 inicio2 inicio3";
+    -ms-grid-columns: 32% 34% 32%;
+        grid-template-columns: 32% 34% 32%;
     -ms-grid-rows: 20% auto;
         grid-template-rows: 20% auto;
     gap: 0;
