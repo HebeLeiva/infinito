@@ -56,8 +56,8 @@ html {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "frase" "inicio2" "inicio3";
-  -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   -ms-grid-rows: 50px 300px 400px;
       grid-template-rows: 50px 300px 400px;
 }
@@ -121,8 +121,8 @@ html {
     display: -ms-grid;
     display: grid;
         grid-template-areas: "frase frase" "inicio1 inicio3";
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 20% auto;
         grid-template-rows: 20% auto;
     gap: 15px;
@@ -172,8 +172,8 @@ html {
     display: -ms-grid;
     display: grid;
         grid-template-areas: "frase frase frase" "inicio1 inicio2 inicio3";
-    -ms-grid-columns: 32% 34% 32%;
-        grid-template-columns: 32% 34% 32%;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 20% auto;
         grid-template-rows: 20% auto;
     gap: 0;

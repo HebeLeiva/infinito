@@ -1,7 +1,7 @@
 #grilla {
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 #grilla {
@@ -10,7 +10,7 @@
         "frase"
         "inicio2"
         "inicio3";
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px 300px 400px;
 
 }
@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.inicio1{
+.inicio1 {
     display: none;
 }
 
@@ -33,7 +33,7 @@
     justify-self: center;
 }
 
-.inicio3{
+.inicio3 {
     grid-area: inicio3;
     width: 400px;
     display: flex;
@@ -41,11 +41,11 @@
     justify-self: center;
 }
 
-.animacion{
+.animacion {
     transition-property: all;
     transition-duration: 2s;
-    
-    &:hover{
+
+    &:hover {
         transform: rotateX(360deg);
     }
 }
@@ -57,13 +57,13 @@
         width: 100%;
         height: 600px;
     }
-    
+
     #grilla {
         display: grid;
         grid-template-areas:
             "frase frase"
             "inicio1 inicio3";
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 20% auto;
         gap: 15px;
     }
@@ -83,7 +83,7 @@
         justify-self: center;
     }
 
-    .inicio2{
+    .inicio2 {
         display: none;
     }
 
@@ -94,7 +94,6 @@
         align-self: center;
         justify-self: center;
     }
-
 }
 
 @media (min-width: 1024px) {
@@ -104,7 +103,7 @@
         grid-template-areas:
             "frase frase frase"
             "inicio1 inicio2 inicio3";
-        grid-template-columns: 32% 34% 32%;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 20% auto;
         gap: 0;
     }
